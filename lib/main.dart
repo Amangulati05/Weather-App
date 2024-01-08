@@ -42,18 +42,18 @@ class WeatherInfo extends StatelessWidget {
           ),
           SizedBox(height: 20),
           Icon(
-            Icons.wb_sunny, // Replace with appropriate weather icon
+            Icons.wb_sunny,
             size: 100,
             color: Colors.orange,
           ),
           SizedBox(height: 20),
           Text(
-            '24°C', // Replace with actual temperature
+            '24°C',
             style: TextStyle(fontSize: 48),
           ),
           SizedBox(height: 10),
           Text(
-            'Partly Cloudy', // Replace with actual weather description
+            'Partly Cloudy',
             style: TextStyle(fontSize: 24),
           ),
         ],
